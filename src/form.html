@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create YouTube Playlist</title>
+</head>
+
+<body>
+    <h1>Create YouTube Playlist</h1>
+    <form action="/create-playlist" method="POST">
+        <label for="spotifyLink">Spotify Playlist Link:</label>
+        <input type="text" id="spotifyLink" name="spotifyLink" required><br><br>
+        <label for="playlistName">Playlist Name:</label>
+        <input type="text" id="playlistName" name="playlistName" required><br><br>
+        <label for="playlistDescription">Playlist Description:</label>
+        <textarea id="playlistDescription" name="playlistDescription" required></textarea><br><br>
+        <button type="submit">Create Playlist</button>
+    </form>
+</body>
+
+</html>

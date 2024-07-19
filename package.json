@@ -1,0 +1,31 @@
+{
+  "name": "spotify-to-youtube",
+  "version": "1.0.0",
+  "description": "A tool that scrapes Spotify Playlist data and creates you a personalized Youtube playlist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roych98/spotify-to-youtube.git"
+  },
+  "author": "roych98",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roych98/spotify-to-youtube/issues"
+  },
+  "homepage": "https://github.com/roych98/spotify-to-youtube#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^140.0.1",
+    "lodash": "^4.17.21",
+    "youtube-search-api": "^1.2.2"
+  }
+}
